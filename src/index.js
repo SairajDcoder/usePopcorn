@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './App';
 // import App from './App-v1';
 import App from './App-v2';
-import StarRatings from './StarRatings';
+// import StarRatings from './StarRatings';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
