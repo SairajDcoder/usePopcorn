@@ -17,13 +17,13 @@ root.render(
   </React.StrictMode>
 );
 
-function Test() {
-  const [rate, setRate] = useState(0);
+// function Test() {
+//   const [rate, setRate] = useState(0);
 
 
-  return <div>
-    <StarRatings maxRating={5} color='orange' defaultRating={2} size={30} onSetRating={setRate} />
-    <p>use gave {rate} star rating for it</p>
-  </div>
-}
+//   return <div>
+//     <StarRatings maxRating={5} color='orange' defaultRating={2} size={30} onSetRating={setRate} />
+//     <p>use gave {rate} star rating for it</p>
+//   </div>
+// }
 
